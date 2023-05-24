@@ -1,0 +1,39 @@
+site_name: Astronáutica
+
+theme:
+  name: material
+  language: es
+  palette:
+    primary: amber
+    accent: deep purple
+  font:
+    text: Futura
+  features:
+    - content.code.copy
+    - search.suggest
+    - navigation.tabs
+    - header.autohide
+
+copyright: Copyright &copy; 2023 Astronáutica
+
+nav:
+    - Inicio: index.md
+    - Código: codigo.md
+
+plugins:
+  - search:
+      lang:
+        - es
+        - en
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
