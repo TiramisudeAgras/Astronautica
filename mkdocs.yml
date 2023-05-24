@@ -3,6 +3,8 @@ site_name: Astronáutica
 theme:
   name: material
   language: es
+  icon:
+    logo: fontawesome/solid/rocket
   palette:
     primary: amber
     accent: deep purple
@@ -13,12 +15,23 @@ theme:
     - search.suggest
     - navigation.tabs
     - header.autohide
+    - navigation.indexes
+    - navigation.footer
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/TiramisudeAgras/Astronautica
+      name: Repositorio de Astronáutica
 
-copyright: Copyright &copy; 2023 Astronáutica
+copyright: Copyright &copy; 2023 Santiago Acuña González
 
 nav:
     - Inicio: index.md
-    - Códigos & Scripts: codigo.md
+    - Códigos & Scripts:
+      - codigo & scripts/index.md
+      - Código 4.1: codigo & scripts/codigo4.1.md
+      - Código 4.2: codigo & scripts/codigo4.2.md
 
 plugins:
   - search:
@@ -37,3 +50,4 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+

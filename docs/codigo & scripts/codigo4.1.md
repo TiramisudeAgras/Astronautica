@@ -1,6 +1,4 @@
-# Códigos & Scripts
-
-## Código 4.1:
+# Código 4.1:
 
 ```python title="Determinación numérica de m_0 para empuje en pozos gravitacionales"
 import numpy as np 

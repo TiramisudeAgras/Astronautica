@@ -1,3 +1,7 @@
+---
+hide:
+  - footer
+---
 > "Dos de las tecnologías más grandes que surgieron en el siglo XX fueron las computadoras y la exploración espacial. Y no es coincidencia que crecieran juntas." - Walter Isaacson
 
 
