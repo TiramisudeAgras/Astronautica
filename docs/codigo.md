@@ -54,3 +54,4 @@ En resumen, el objetivo general de este script es calcular la masa inicial neces
 
 Haga click en este enlace para poder interactuar con el [script](https://replit.com/@SantiagoAcua3/Determinacion-numerica-de-m0-para-empuje-en-pozos-gravitacio#main.py)
 
+
